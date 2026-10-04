@@ -1,9 +1,9 @@
 # Superstore Sales Analysis
 *Oasis Infobyte Data Analytics Internship, Task 1: Exploratory Data Analysis on Retail Sales Data*
 
-**Author:** Shahd
+**Author:** Shahd Elhassan
 
-> **In short:** items sold with a discount above 20% lost about 135K, almost half of the store's 286K total profit. The weakest areas are Tables, Bookcases, Machines, and the Central region.
+>> **In short:** I analysed four years of Superstore sales (9,994 rows) to find where the store makes and loses money. Items sold with a discount above 20% lost about 135K, almost half of the 286K total profit. The weakest areas are Tables, Bookcases, Machines, and the Central region.
 
 ## Business Question
 Which products, categories, regions, and customer segments contribute most and least to profit, and how does discounting relate to their performance?
