@@ -52,12 +52,11 @@ Python, pandas, matplotlib, seaborn, Jupyter Notebook
 
 ## Files
 - `Shahd_Task1.ipynb`: the full analysis, with a written observation after each chart
-- `Sample - Superstore.csv`: the dataset
 - `images/`: charts used in this README
 
 ## How to Run
-1. Download this folder.
-2. Install the libraries: `pip install pandas numpy matplotlib seaborn jupyter`
+1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final) (the file is `Sample - Superstore.csv`; it is shared there for educational use) and put it in the same folder as the notebook.
+2. Install the libraries: `pip install pandas matplotlib seaborn jupyter`
 3. Open `Shahd_Task1.ipynb` in Jupyter and run all cells.
 
 **Note:** the dataset is not UTF-8 encoded, so it is loaded with `encoding='latin-1'`. GitHub cannot preview the file, but it downloads and loads normally.
