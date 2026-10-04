@@ -3,7 +3,7 @@
 
 **Author:** Shahd Elhassan
 
->> **In short:** I analysed four years of Superstore sales (9,994 rows) to find where the store makes and loses money. Items sold with a discount above 20% lost about 135K, almost half of the 286K total profit. The weakest areas are Tables, Bookcases, Machines, and the Central region.
+> **In short:** I analysed four years of Superstore sales (9,994 rows) to find where the store makes and loses money. Items sold with a discount above 20% lost about 135K, almost half of the 286K total profit. The weakest areas are Tables, Bookcases, Machines, and the Central region.
 
 ## Business Question
 Which products, categories, regions, and customer segments contribute most and least to profit, and how does discounting relate to their performance?
@@ -16,13 +16,15 @@ Sample Superstore dataset from Kaggle: [vivek468/superstore-dataset-final](https
 
 The dataset has no age or gender, so customers are analysed by segment (Consumer, Corporate, Home Office).
 
+**Definitions:** an "item sold" is one row of the dataset. Profit margin is profit divided by sales, which shows how much of each dollar sold is kept as profit.
+
 ## Key Findings
-1. **Discounts above 20% are linked to losses.** Items sold at a discount of 20% or less make a profit on average, and from 30% upward the average is negative at every level. The 1,393 items sold above 20% lost about 135K, while the rest earned about 422K.
-2. **The link holds for the same products.** Products sold at both levels earn about 85 per item at up to 20% and lose about 92 per item above 20%, which suggests discounting is a major driver of the losses.
-3. **Furniture sells a lot but keeps little.** Its profit margin is about 2.5%, against about 17% for Technology and Office Supplies. Tables (about -17.7K) and Bookcases (about -3.5K) lose money, and Machines sold about 189K but earned only about 3.4K.
-4. **The Central region is the weakest.** Its profit margin is 7.9% (West: 14.9%), it gives the biggest average discount (about 24% against about 11% in the West), and about 1 in 3 of its items sold loses money.
-5. **Best sellers are not always the best earners.** Two of the ten products with the highest sales are also among the ten biggest loss-makers. One product, the Canon imageCLASS 2200 copier, earns about 9% of all profit.
-6. **Strong growth and clear seasonality.** Yearly sales grew about 51% from 2014 to 2017, and the last quarter brings about 38% of sales and about 39% of profit every year.
+1. **Discounts above 20% are linked to losses.** Items sold at a discount of 20% or less make a profit on average, and from 30% upward the average is negative at every level. The 1,393 items sold above 20% lost about 135K, while the rest earned about 422K. The link holds for the same products: those sold at both levels earn about 85 per item at up to 20% and lose about 92 per item above 20%, which suggests discounting is a major driver of the losses.
+2. **Furniture sells a lot but keeps little.** Its profit margin is about 2.5%, against about 17% for Technology and Office Supplies. Within it, the Tables sub-category (about -17.7K) and the Bookcases sub-category (about -3.5K) lose money, and the Machines sub-category sold about 189K but earned only about 3.4K.
+3. **The Central region is the weakest.** Its profit margin is 7.9% (West: 14.9%), it gives the biggest average discount (about 24% against about 11% in the West), and about 1 in 3 of its items sold loses money.
+4. **Best sellers are not always the best earners.** Only four of the ten products with the highest sales are also among the ten most profitable, and two of them (the Cisco TelePresence and the GBC DocuBind P400) are among the ten biggest loss-makers.
+5. **Customer segments perform similarly.** Consumer is the largest segment and brings the most profit (about 134K), but profit margins are close across the three segments (11.5% to 14.0%).
+6. **Sales grew about 51% from 2014 to 2017, and the last quarter is the strongest in every year.** It brings about 38% of each year's sales and about 39% of profit over the four years, although its share of profit varies from year to year.
 
 ## Key Charts
 ![Average profit per row by discount level](images/discount_vs_profit.png)
@@ -35,17 +37,18 @@ The dataset has no age or gender, so customers are analysed by segment (Consumer
 3. Review discounting practice in the Central region.
 4. Check the costs and prices of Supplies, which lose money without heavy discounting.
 5. Protect the most profitable products, such as Copiers.
-6. Plan stock and staff for the last quarter of the year.
+6. Plan stock and staff for the last quarter of the year, and watch its margin.
 
 ## Approach
-Data inspection and cleaning, descriptive statistics, time series, customer segments, product and category analysis, a correlation heatmap, and a profit analysis by category, region, and segment. The discount analysis checks whether the losses come from the discounts or from the products themselves.
+Data inspection, and cleaning, descriptive statistics, time series, customer segments, product and category analysis, a correlation heatmap, and a profit analysis by category, region, and segment. The discount analysis checks whether the losses come from the discounts or from the products themselves.
 
 ## Limitations
 - The data has no cost or stock information, so it shows where profit is lost but not always why.
 - The discount comparisons do not control for region, date, or customer, so they show a link and do not prove cause. Recommendations should be tested on a small scale first.
+- This is a sample dataset, so the results illustrate the method and do not describe a real company.
 
 ## Tools
-Python, pandas, NumPy, matplotlib, seaborn, Jupyter Notebook
+Python, pandas, matplotlib, seaborn, Jupyter Notebook
 
 ## Files
 - `Shahd_Task1.ipynb`: the full analysis, with a written observation after each chart
