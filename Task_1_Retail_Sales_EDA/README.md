@@ -1,5 +1,5 @@
 # Superstore Sales Analysis
-*Oasis Infobyte Data Analytics Internship, Task 1: Exploratory Data Analysis on Retail Sales Data*
+*Oasis Infobyte Data Analytics Internship, PROJECT 1: Exploratory Data Analysis on Retail Sales Data*
 
 **Author:** Shahd Elhassan
 
