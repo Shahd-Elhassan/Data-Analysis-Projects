@@ -22,7 +22,7 @@ Google Play Store Apps (Kaggle): an apps file (10,841 rows) and a user reviews f
 ![Apps per category](images/apps_per_category.png)
 ![Size against installs](images/size_vs_installs.png)
 ![Paid prices](images/paid_prices.png)
-![Crowding, audience and rating by category](images/category_chart.png)
+![Crowding, audience and rating by category](images/imagescategory_chart.png)
 
 ## Limitations
 - A 2018 snapshot, with no trends.
