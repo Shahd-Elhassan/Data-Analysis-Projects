@@ -1,5 +1,5 @@
 # Superstore Sales Analysis
-PROJECT 1: Exploratory Data Analysis on Retail Sales Data*
+PROJECT 1: Exploratory Data Analysis on Retail Sales Data
 
 **Author:** Shahd Elhassan
 
