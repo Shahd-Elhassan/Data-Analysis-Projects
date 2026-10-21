@@ -1,4 +1,2 @@
-# OIBSIP
-Data Analytics Internship Projects - Oasis Infobyte 
-
+Data Analytics Projects 
 3 PROJECTS
