@@ -1,3 +1,3 @@
-Data Analytics Projects 
+Data Analysis Projects 
 
 3 PROJECTS
