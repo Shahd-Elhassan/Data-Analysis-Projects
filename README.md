@@ -1,5 +1,6 @@
 Data Analysis Projects 
 Data analysis portfolio: three projects that turn raw data into clear answers and recommendations. Built with Python and Power BI.
+
 By **Shahd Elhassan**, IT graduate (First Class Honors, University of Khartoum, 2025) | [LinkedIn](https://www.linkedin.com/in/shahd-elhassan-09b7b03a4)
 
 | Project | Key finding | Tools |
