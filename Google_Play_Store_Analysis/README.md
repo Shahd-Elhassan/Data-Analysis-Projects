@@ -2,7 +2,7 @@
 
 **Business question:** Which categories, price choices and app features give a new app the best chance of success?
 
-## Key findings
+## Key findings and recommendations for a new app
 1. **Category:** Education is the strongest all-round choice: 60.5% of its apps have 1,000,000+ installs, its rating is 4.36 and 78.1% of its reviews are positive (VADER). Crowding is a poor guide: Medical has 399 apps and 4.8% with big audiences, Entertainment has 102 apps and 84.3%.
 2. **Price:** Paid is a small, hit-driven market. 7.8% of apps are paid, a typical paid app has 1,000 installs against 100,000 for free, and 7 apps hold 52.2% of the minimum revenue estimate. Most paid apps cost under 5 dollars (median 2.99).
 3. **Quality:** 76.7% of rated apps have 4.0 or more. App size shows no link with popularity until 100,000+ installs (median size 6 to 12 MB up to 50,000 installs).
