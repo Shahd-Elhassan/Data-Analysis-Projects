@@ -48,7 +48,7 @@ How can we group the customers of an online store by how recently, how often, an
 ## How to run
 1. Download `Online Retail.xlsx` from the link above and place it next to the notebook.
 2. Install the packages: `pip install pandas numpy scikit-learn scipy matplotlib seaborn openpyxl jupyter`
-3. Open `Shahd_Task2.ipynb` and run all cells (loading the Excel file takes about a minute).
+3. Open `customer_segmentation.ipynb` and run all cells (loading the Excel file takes about a minute).
 
 ## Tech stack
 Python, pandas, NumPy, scikit-learn, matplotlib, seaborn, Jupyter Notebook.

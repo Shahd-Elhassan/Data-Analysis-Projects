@@ -37,9 +37,9 @@ Python, pandas, NumPy, Matplotlib, Seaborn, Plotly, VADER, Jupyter Notebook.
 ## How to run
 1. Download the two CSV files from Kaggle (Google Play Store Apps) and put them next to the notebook.
 2. Install: `pip install pandas numpy matplotlib seaborn plotly vaderSentiment`
-3. Open `Shahd_Task4.ipynb` and run all cells.
+3. Open `google_play_store_analysis.ipynb` and run all cells.
 
 ## Files
-- `Shahd_Task4.ipynb`: the analysis
+- `google_play_store_analysis.ipynb`: the analysis
 - `images/`: charts used in this README
 - `category_chart.html`: interactive chart
