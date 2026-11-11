@@ -31,6 +31,9 @@ Google Play Store Apps (Kaggle): an apps file (10,841 rows) and a user reviews f
 - No app ID: repeated apps were matched by name and review count (10% cut-off).
 - Sentiment tools disagree on 23.5% of reviews, and there are no hand-made labels.
 
+## Tools : 
+Python, pandas, NumPy, Matplotlib, Seaborn, Plotly, VADER, Jupyter Notebook.
+
 ## How to run
 1. Download the two CSV files from Kaggle (Google Play Store Apps) and put them next to the notebook.
 2. Install: `pip install pandas numpy matplotlib seaborn plotly vaderSentiment`
