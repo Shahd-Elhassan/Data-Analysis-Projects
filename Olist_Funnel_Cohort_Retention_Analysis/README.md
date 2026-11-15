@@ -2,7 +2,7 @@
 
 SQL (SQLite) analysis of about 100K orders from Olist, a Brazilian marketplace, from 2016 to 2018. A Power BI dashboard is the next step (see the end).
 
-The question I wanted to answer: where does Olist lose orders and customers, and how well does it keep them?
+The business question I wanted to answer: where does Olist lose orders and customers, and how well does it keep them?
 
 Short answer: orders mostly make it, customers mostly don't come back. 97% of orders get delivered, but only 3.04% of customers ever order twice (2.15% if I don't count a second order placed within 24 hours of the first). I tested satisfaction, late delivery, product category and location as explanations, and none of them explains it well. The data doesn't show the cause, so what I recommend at the end is a test, not a fix.
 
@@ -133,7 +133,6 @@ I'm not recommending a delivery overhaul to raise retention, or spending targete
 ## Next steps
 
 - Power BI dashboard (funnel, cohort heatmap, delivery vs reviews). In progress, screenshots will be added here.
-- Check whether late deliveries are concentrated in a few sellers or regions. Not done yet.
 
 ## Repository and how to reproduce
 
